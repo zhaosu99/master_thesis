@@ -1,0 +1,21 @@
+---
+title: energy_autarky
+author:
+    - Hongyu Chen
+institute: ETH
+tags:
+    - reproducible-research
+abstract: |
+    A short description of this project.
+bibliography: literature.yaml
+csl: apa.csl
+link-citations: True
+css:
+    - reset.css
+    - report.css
+lang: en-GB
+xnos-cleveref: True
+fignos-plus-name: Figure
+tablenos-plus-name: Table
+date: 2022-10-24
+---

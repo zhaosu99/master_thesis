@@ -1,0 +1,91 @@
+# The right place for all your configuration values.
+slope: 4
+x0: 5
+
+
+country_codes:
+    - "AUT"
+    - "BEL"
+    - "BGR"
+    - "HRV"
+    - "CYP"
+    - "CZE"
+    - "DNK"
+    - "EST"
+    - "FIN"
+    - "FRA"
+    - "DEU"
+    - "GRC"
+    - "HUN"
+    - "IRL"
+    - "ITA"
+    - "LVA"
+    - "LTU"
+    - "LUX"
+    - "NLD"
+    - "POL"
+    - "PRT"
+    - "ROU"
+    - "SVK"
+    - "SVN"
+    - "ESP"
+    - "SWE"
+    - "GBR"
+    - "ALB"
+    - "BIH"
+    - "MKD"
+    - "MNE"
+    - "NOR"
+    - "SRB"
+    - "CHE"
+
+parameters:
+    onshore_turbine_separation_distance: 750    # unit: m https://www.vestas.com/en/products/4-mw-platform/V150-4-2-MW  Rotor diameter： 150m
+    offshore_turbine_separation_distance: 1500    # unit: m https://www.ge.com/renewableenergy/wind-energy/offshore-wind/haliade-x-offshore-turbine  Rotor Diameter: 220m
+    max_offshore_turbine_distance_to_land: 100000    # unit: m
+    capacity_of_onshore_wind_turbine: 4   # unit: MW/#
+    capacity_of_offshore_wind_turbine: 12   # unit: MW/#
+    capacity_density_of_open_field_solar_PV: 0.8   # unit: MW/hectare
+    capacity_density_of_rooftop_solar_PV:  0.8  # unit: MW/hectare
+    ratio_of_usable_rooftop: 0.56
+    penetration_rate_of_rooftop_solar_PV: 0.1
+    west_and_east_oriented_rooftops_ratio: 0.334
+    north_oriented_rooftops_ratio: 0.182
+    flat_and_south_oriented_rooftops_ratio: 0.484
+    biomass_energy_conversion_ratio: 0.3 # To electricity
+    
+regions_amount:
+    AUT: 9
+    BEL: 3
+    BGR: 28
+    HRV: 21
+    CYP: 6
+    CZE: 14
+    DNK: 5
+    EST: 15
+    FIN: 19
+    FRA: 13
+    DEU: 16
+    GRC: 8
+    HUN: 20
+    IRL: 26
+    ITA: 20
+    LVA: 5
+    LTU: 10
+    LUX: 12
+    NLD: 12
+    POL: 16
+    PRT: 18
+    ROU: 42
+    SVK: 8
+    SVN: 12
+    ESP: 19
+    SWE: 21
+    GBR: 4
+    ALB: 12
+    BIH: 3
+    MKD: 8
+    MNE: 23
+    NOR: 19
+    SRB: 25
+    CHE: 26
